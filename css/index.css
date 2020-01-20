@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .outline {
+  border: 1px solid green;
+  height: 500px;
+  width: 500px;
+}
+.container .outline .tab-container ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.container .outline .tab-container ul li {
+  border: 1px solid black;
+  margin: none;
+  padding: none;
+  list-style-type: none;
+  padding: 20px;
+}
+.container .outline .tab-container ul li:hover {
+  cursor: pointer;
+}
+.container .outline .tab-content-container {
+  height: 100%;
+}
+.container .outline .tab-content {
+  height: 100%;
+}
+.container .outline .active {
+  background: green;
+}
+.container .outline .inactive {
+  display: none;
+}

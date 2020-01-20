@@ -1,0 +1,48 @@
+.container{
+   display:flex;
+   justify-content: center;
+   align-items:center;
+
+
+   .outline{
+        border:1px solid green;
+        height:500px;
+        width:500px;
+
+
+        .tab-container{
+            
+            ul{
+                display:flex;
+                list-style-type: none;
+                margin:0px;
+                padding:0px;
+              
+                li{
+                
+                    border:1px solid black;
+                    margin:none;
+                    padding:none;
+                    list-style-type: none;  
+                    padding:20px;
+                    &:hover{
+                        cursor:pointer;
+                    }
+                }
+            }
+        }
+        .tab-content-container{
+            height:100%;
+        }
+        .tab-content{
+            
+            height:100%;
+        }
+        .active{
+            background:green;
+        }
+        .inactive{
+            display:none;
+        }
+   }
+}
